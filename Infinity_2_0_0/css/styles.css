@@ -4330,14 +4330,13 @@ img.u-pull-left {
     height           : calc(1.875 * var(--space));
     width            : calc(1.875 * var(--space));
     border-radius    : 50%;
-    background-color : black;
-    transition       : all .3s;
+    background-color : #eeeeee;
     position         : relative;
 }
 
 .ss-go-top a:focus svg path,
 .ss-go-top a:hover svg path {
-    fill : white;
+    fill : rgb(0, 0, 0);
 }
 
 .ss-go-top svg {
@@ -4346,7 +4345,7 @@ img.u-pull-left {
 }
 
 .ss-go-top svg path {
-    fill : white;
+    fill : rgb(0, 0, 0);
 }
 
 .ss-go-top.link-is-visible {
