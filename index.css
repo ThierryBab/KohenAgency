@@ -2,7 +2,6 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/WomanExitingBuilding1.jpeg');
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -53,6 +52,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 663px;
   }
@@ -95,8 +98,16 @@
     margin-top: 60px;
   }
 
+  .u-section-1 .u-text-2 {
+    font-size: 2.25rem;
+    margin-top: 12px;
+  }
+
   .u-section-1 .u-text-3 {
     font-size: 0.875rem;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 395px;
@@ -443,8 +454,8 @@
 }
 
 .u-section-4 .u-layout-wrap-1 {
-  margin-top: 65px;
-  margin-bottom: 0;
+  margin-top: 64px;
+  margin-bottom: 60px;
 }
 
 .u-section-4 .u-layout-cell-1 {
@@ -804,7 +815,6 @@
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/Walk.jpeg'), linear-gradient(to bottom, rgba(242, 242, 242, 1), rgba(242, 242, 242, 1));
   background-size: cover, cover, cover;
-  background-position: 50% 50%;
 }
 
 .u-section-5 .u-sheet-1 {
@@ -912,6 +922,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-5 {
+    background-position: 50% 50%;
+  }
+
   .u-section-5 .u-sheet-1 {
     min-height: 509px;
   }
